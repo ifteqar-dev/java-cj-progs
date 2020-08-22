@@ -9,8 +9,8 @@ import com.iftaqar.dev.utils.CommonUtils;
  * Hello world!
  *
  */
-public class App {
-	private static final Logger LOGGER = LoggerFactory.getLogger(App.class);
+public class CommonApp {
+	private static final Logger LOGGER = LoggerFactory.getLogger(CommonApp.class);
 
 	public static void main(String[] args) {
 		
