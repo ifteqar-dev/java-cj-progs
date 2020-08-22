@@ -7,8 +7,10 @@ import org.slf4j.MDC;
 import com.iftaqar.dev.constants.CommonConstants;
 
 public class CommonUtils {
-	
+
 	public static void setCorrelation() {
+		// for more info on CorrelationId, refer
+		// http://logback.qos.ch/manual/mdc.html
 		MDC.put(CommonConstants.CORRELATION_ID, generateCorrelationID());
 	}
 
