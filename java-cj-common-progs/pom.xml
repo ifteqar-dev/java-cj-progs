@@ -55,11 +55,5 @@
 		</dependency>
 		<!-- End of Dependencies of Google -->
 		
-		<!-- Below Dependency are for Token Generation using Google -->
-		<dependency>
-			<groupId>org.apache.oltu.oauth2</groupId>
-			<artifactId>org.apache.oltu.oauth2.client</artifactId>
-			<version>0.31</version>
-		</dependency>
 	</dependencies>
 </project>
