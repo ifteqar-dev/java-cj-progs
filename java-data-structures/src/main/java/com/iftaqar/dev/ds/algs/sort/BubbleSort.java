@@ -9,6 +9,10 @@ public class BubbleSort {
 		// 1. Get the size of an array
 		// 2. In an outer for loop, we will traverse from left to right
 		// 3. In an inner for loop, we will check the elements
+		
+		//Time Complexity - Quadratic Alg
+		//It is determined with for loops - as there are 2 for loops - O(n2) 
+		
 		for (int lastUnsortedIndex = intArray.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
 			for (int i = 0; i < lastUnsortedIndex; i++) {
 
